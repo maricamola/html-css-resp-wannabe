@@ -188,3 +188,16 @@ h2 {
     }
 }
 
+/*SOLUTIONE LAYOUT SCATTOSO*/
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:1600px) {
+    
+}
