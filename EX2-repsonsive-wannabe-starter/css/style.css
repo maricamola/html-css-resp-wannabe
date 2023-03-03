@@ -50,6 +50,9 @@ img {
     width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .row {
@@ -127,3 +130,31 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/*SOLUZIONE TABLET*/
+
+.lessons.text-center{
+    display: flex;
+}
+.steps.text-center{
+    display: flex;
+}
+.why-us{
+    display: flex;
+}
+
+@media screen and (max-width:769px) {
+    .section.lessons.text-center{
+        flex-wrap: wrap;
+    }
+    .section.steps.text-center{
+        flex-wrap: wrap;
+    }
+    .why-us{
+        flex-wrap: wrap;
+    }
+}
+
+/*SOLUZIONE MOBILE*/
+
+
